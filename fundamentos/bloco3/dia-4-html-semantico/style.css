@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(192, 124, 124);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 15px;
+    border: 3px solid aquamarine;
+    text-align: center;
+}
+
+nav {
+    padding: 15px;
+    border: 3px solid aquamarine;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 350px;
+    color: red;
+}
+
+li {
+    text-decoration: none;
+    color: red;
+}
+
+article {
+    float: left;
+    border: 3px solid aquamarine;
+    padding: 10px;
+}
+
+footer {
+    position: absolute;
+    top: 1080px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 3px solid aquamarine;
+}
+
+aside {
+    text-align: center;
+    margin-left: 1177px;
+    border: 3px solid aquamarine;
+}
+
+li:hover {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+aside:hover {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
