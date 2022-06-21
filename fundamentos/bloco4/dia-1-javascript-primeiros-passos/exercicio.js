@@ -105,3 +105,21 @@ if (par1 % 2 != 0 || par2 % 2 != 0 || impar3 % 2 !=0) {
 } else {
     console.log("false")
 }
+
+//10
+
+//11
+
+let salario = 3500.11
+
+//INSS
+if (salario > 5189.82) {
+    console.log(salario - 570.88)
+} else if (salario >= 2594.93 && salario <= 5189.82) {
+    console.log(salario - 330.00)
+} else if (salario >= 1556.95 && salario <= 2594.92) {
+    console.log(salario - 180.00)
+} else if (salario <= 1556.94) {
+    console.log(salario - 124.56)
+}
+
