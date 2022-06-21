@@ -5,30 +5,31 @@ body {
 
 header {
     padding: 15px;
-    border: 3px solid aquamarine;
     text-align: center;
+    background-color: red;
 }
 
 nav {
     padding: 15px;
-    border: 3px solid aquamarine;
+    background-color: rgb(151, 0, 8);
 }
 
 nav ul li{
     display: inline-block;
     margin-left: 350px;
     color: red;
+    text-decoration: none;
 }
 
 li {
     text-decoration: none;
-    color: red;
+    color: rgb(255, 123, 0);
 }
 
 article {
     float: left;
-    border: 3px solid aquamarine;
     padding: 10px;
+    color: rgb(155, 46, 46);
 }
 
 footer {
@@ -36,13 +37,11 @@ footer {
     top: 1080px;
     margin-bottom: 40px;
     padding: 10px;
-    border: 3px solid aquamarine;
 }
 
 aside {
     text-align: center;
     margin-left: 1177px;
-    border: 3px solid aquamarine;
 }
 
 li:hover {
