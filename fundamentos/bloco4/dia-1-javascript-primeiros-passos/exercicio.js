@@ -90,9 +90,17 @@ if (porcentagem >= 90) {
 
 const par1 = 2
 const par2 = 4
-const par3 = 3
+const impar3 = 3
 
-if (par1 % 2 == 0 || par2 % 2 == 0 || par3 % 2 == 0) {
+if (par1 % 2 == 0 || par2 % 2 == 0 || impar3 % 2 == 0) {
+    console.log("true")
+} else {
+    console.log("false")
+}
+
+//9
+
+if (par1 % 2 != 0 || par2 % 2 != 0 || impar3 % 2 !=0) {
     console.log("true")
 } else {
     console.log("false")
