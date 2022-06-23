@@ -15,5 +15,9 @@
 
 //2
 
-let word = 'tryber';
-console.log([...word].reverse().join(''));
+//let word = 'tryber';
+//console.log([...word].reverse().join(''));
+
+//3
+
+let array = ['java', 'javascript', 'python', 'html', 'css'];
