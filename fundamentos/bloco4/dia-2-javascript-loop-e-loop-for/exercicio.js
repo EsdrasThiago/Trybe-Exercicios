@@ -6,7 +6,7 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //2
 
-let total = 0
+let total = 0;
 
 for (i = 0; i < numbers.length; i++) {
     total += numbers[i];
@@ -34,5 +34,3 @@ for (i2 = 0; i2 < numbers.length; i2++) {
     }
 }
 console.log(numbers[0])
-
-//6
