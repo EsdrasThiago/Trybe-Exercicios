@@ -1,0 +1,1 @@
+document.getElementById('futuro').innerText = "Planejo estar vivendo uma vida tranquila em sp";
