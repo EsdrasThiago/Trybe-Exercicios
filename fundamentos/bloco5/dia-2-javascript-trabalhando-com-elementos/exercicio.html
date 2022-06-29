@@ -63,15 +63,22 @@
     let titulo = document.createTextNode('Exercício 5.2 - JavaScript DOM');
     novoTitulo.appendChild(titulo);
     let body = document.querySelector('body');
-    body.appendChild(novoTitulo)
+    body.appendChild(novoTitulo);
     //2
     let principal = document.createElement('main');
-    principal.classList.add('main-content')
-    body.appendChild(principal)
+    principal.classList.add('main-content');
+    body.appendChild(principal);
     //3
     let secao = document.createElement('section');
-    secao.classList.add('center-content')
-    principal.appendChild(secao)
+    secao.classList.add('center-content');
+    principal.appendChild(secao);
+    //4
+    let paragrafo1 = document.createElement('p');
+    let texto1 = document.createTextNode('Paragrafo')
+    paragrafo1.appendChild(texto1)
+    secao.appendChild(paragrafo1)
+    
+
 
     </script>
   </body>
