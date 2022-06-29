@@ -1,6 +1,6 @@
 //1
 function futuro(texto) {
-document.getElementById('futuro').innerText = texto;
+    document.getElementById('futuro').innerText = texto;
 }
 futuro("Planejo estar vivendo uma vida tranquila em sp")
 
@@ -23,3 +23,10 @@ function background2(cor) {
 background2('white')
 
 //4
+
+// function titulo(texto) {
+//     let title1 = document.getElementsByClassName('title');
+//     title1.innerHTML = texto;
+// }
+
+// titulo('Exercício 5.1 - JavaScript')
