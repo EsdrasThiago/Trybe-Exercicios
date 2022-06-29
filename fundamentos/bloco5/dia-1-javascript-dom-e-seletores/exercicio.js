@@ -10,3 +10,12 @@ function background(cor) {
 }
 
 background('rgb(76,164,109)')
+
+//3
+
+function background2(cor) {
+    let corQuadrado = document.getElementsByClassName('center-content')[0]
+    corQuadrado.style.background = cor
+}
+
+background2('white')
