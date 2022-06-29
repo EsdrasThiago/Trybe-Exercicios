@@ -58,12 +58,16 @@
   <body>
     <script>
       
-      
-      let novoTitulo = document.createElement('h1');
-      let titulo = document.createTextNode('Exercício 5.2 - JavaScript DOM');
-      novoTitulo.appendChild(titulo);
-      let body = document.querySelector('body');
-      body.appendChild(novoTitulo)
+    //1
+    let novoTitulo = document.createElement('h1');
+    let titulo = document.createTextNode('Exercício 5.2 - JavaScript DOM');
+    novoTitulo.appendChild(titulo);
+    let body = document.querySelector('body');
+    body.appendChild(novoTitulo)
+    //2
+    let principal = document.createElement('main');
+    principal.classList.add('main-content')
+    body.appendChild(principal)
 
     </script>
   </body>
