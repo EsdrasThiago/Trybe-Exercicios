@@ -1,6 +1,8 @@
 //1
-
-document.getElementById('futuro').innerText = "Planejo estar vivendo uma vida tranquila em sp";
+function futuro(texto) {
+document.getElementById('futuro').innerText = texto;
+}
+futuro("Planejo estar vivendo uma vida tranquila em sp")
 
 //2
 
@@ -19,3 +21,5 @@ function background2(cor) {
 }
 
 background2('white')
+
+//4
