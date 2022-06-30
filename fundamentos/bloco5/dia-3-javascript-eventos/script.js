@@ -40,3 +40,15 @@ function createDaysOfTheWeek() {
     let dia25Sexta = lista.lastChild.previousSibling.previousSibling.previousSibling.previousSibling.previousSibling.previousSibling
     dia25Sexta.classList.add('friday')
   //2
+    
+  function btn(feriados) {
+    let botaoDiv = document.createElement('div')
+    botao = document.createTextNode(feriados)
+    botaoDiv.appendChild(botao)
+    let divTres = document.querySelectorAll('div')[2]
+    divTres.appendChild(botaoDiv)
+
+  } 
+btn(['Feriados'])
+
+  
