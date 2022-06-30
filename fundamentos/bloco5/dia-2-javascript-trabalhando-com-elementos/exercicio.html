@@ -105,9 +105,8 @@
         'dez'
     ]
     for (let i = 0; i < numeros.length; i += 1) {
-        let numerado = document.createTextNode(numeros[i]);
         let numerar = document.createElement('li');
-        numerar.innerText = numeros;
+        numerar.innerText = numeros[i];
         lista.appendChild(numerar)
         console.log(numeros);
     }
