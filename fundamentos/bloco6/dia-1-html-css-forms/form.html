@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
-    <h1>Header da pagina</h1>
+<body class="p-3 mb-2 bg-dark text-white">
+    <h1 class="display-1">Header da pagina</h1>
     <form action="" method="get">
     <fieldset>
-    <em>Nome: </em><input type="text" name="nome" id="nome" placeholder="Digite seu nome completo." minlength="10" maxlength="40">
-    <br>
-    <em>Email: </em><input type="email" name="email" id="email" placeholder="Digite seu email." minlength="10" maxlength="50">
-    <br>
-    <br>
+    <div class="rounded p-3 mb-2 bg-secondary text-black bg-gradient">
+    <em>Nome: </em><input class="form-control" type="text" name="nome" id="nome" placeholder="Digite seu nome completo." minlength="10" maxlength="40">
+    <em>Email: </em><input class=" form-control" type="email" name="email" id="email" placeholder="Digite seu email." minlength="10" maxlength="50">
+</div>
+    <div class="rounded p-3 mb-2 bg-secondary text-black bg-gradient">
     <label for="opcao1">
         <input type="radio" name="opcoes" id="opcao1">Cidade
     </label>
@@ -28,22 +29,21 @@
     <label for="opcao4">
         <input type="radio" name="opcoes" id="opcao4">Montanhas
     </label>
-    <br>
-    <h2>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h2>
-    <textarea name="texto" id="texto" cols="50" rows="10" placeholder="Digite sua resposta." maxlength="500"></textarea>
-    <br>
-    <br>
-    <em>Data: </em><input type="date" name="data" id="data">
-    <br>
-    <br>
-    <a>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</a><input type="checkbox" name="concorda1" id="concorda1">
-    <br>
-    <br>
-    <a>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</a><input type="checkbox" name="concorda2" id="concorda2">
-    <br>
-</fieldset>
-    <button type="submit" id="enviar">Enviar</button> <button type="reset">Apagar</button>
+    <br><em>Data: </em><input type="date" name="data" id="data">
+</div>
+    <div class="rounded p-3 mb-2 bg-secondary text-black bg-gradient">
+    <h2 class="display-6">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h2>
+    <textarea class="form-control" name="texto" id="texto" cols="10" rows="3" placeholder="Digite sua resposta." maxlength="500"></textarea>
+</div>
+    
+    <div class="rounded p-3 mb-2 bg-secondary text-black bg-gradient">
+    <a>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</a><input type="checkbox" name="concorda1" id="concorda1"><br>
+    <a>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</a><input type="checkbox" name="concorda2" id="concorda2" class="ms-10">
+</div>
+</fieldset class="p-3 mb- bg-secondary text-black bg-gradient">
+    <button type="submit" id="enviar" class="btn btn-primary">Enviar</button> <button type="reset" class="btn btn-danger">Apagar</button>
 </form>
-<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!-- <script src="script.js"></script> -->
 </body>
 </html>
