@@ -1,0 +1,20 @@
+fieldset {
+    border: solid 3px black;
+    margin-right: 75%;
+    background-color: rgb(169, 207, 133);
+    border-radius: 1%;
+}
+
+button {
+    padding: 15px 20px;
+    margin-left: 70px;
+    margin-top: 50px;
+    background-color: rgb(169, 207, 133);
+    border-radius: 25%;
+}
+
+button:hover {
+    background-color: rgb(72, 83, 58);
+    padding: 20px 25px;
+    border-radius: 25%;
+}
