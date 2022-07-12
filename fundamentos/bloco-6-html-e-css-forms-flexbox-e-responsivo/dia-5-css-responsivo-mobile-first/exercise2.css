@@ -5,3 +5,92 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+@media screen and (max-width: 600px) {
+    header p {
+        text-align: center;
+    }
+    header li {
+        display: none;
+    }
+    aside {
+        display: flex;
+        background-color: black;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        flex-wrap: row;
+    }
+    .aside-one ul{
+        margin-right: 50%;
+    }
+    .aside-two ul{
+        margin-right: 50%;
+    }
+    footer {
+        background-color: black;
+        color: white;
+    }
+    footer p {
+        margin: 15px;
+    }
+    footer h3 {
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width: 601px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header li {
+        display: inline-block;
+    }
+    header ul {
+        list-style-type: none;
+
+    }
+    aside {
+        display: flex;
+        background-color: black;
+        color: white;
+        flex-wrap: row;
+        height: 400px;
+    }
+    aside h2 {
+        margin-left: 20px;
+    }
+    .aside-one ul{
+        margin-right: 50%;
+    }
+    .aside-two ul{
+        margin-right: 50%;
+    }
+    footer {
+        background-color: black;
+        color: white;
+    }
+    footer p {
+        margin: 15px;
+    }
+    footer h3 {
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width: 800px) {
+    .aside-one {
+        height: 250px;
+    }
+    .aside-two {
+        height: 200px;
+    }
+    .main-content h1{
+        text-align: center;
+    }
+    .main-content {
+        margin: 50px;
+    }
+}
