@@ -1,5 +1,5 @@
 let body = document.querySelector('body')
-let counter = document.createElement('p')
+let counter = document.createElement('h3')
 let botao = document.querySelector('input')
 body.appendChild(counter)
 
@@ -12,3 +12,9 @@ botao.addEventListener('click', function(event) {
     
 });
 
+function replace(nome){
+
+    const frase = `Tryber ${nome} aqui!`
+    console.log(frase);
+}
+replace('Esdras')
