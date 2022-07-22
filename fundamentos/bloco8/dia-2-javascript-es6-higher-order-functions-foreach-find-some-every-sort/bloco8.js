@@ -63,15 +63,30 @@ const books = [
   
   // Adicione o código do exercício aqui:
 
+  // #1
+
 // function authorBornIn1947(ano) {
 //   // escreva aqui o seu código
 //   return ano.author.birthYear === 1947;
 // }
 //   console.log(books.find(authorBornIn1947));
 
+  // #2 (ou #5)
+
 //   const expectedResult = false;
 
-function everyoneWasBornOnSecXX(sec) {
-  return sec.author.birthYear > 1901
+// function everyoneWasBornOnSecXX(sec) {
+//   return sec.author.birthYear > 1901
+// }
+//   console.log(books.every(everyoneWasBornOnSecXX));
+
+  // #3 (ou #6)
+
+//   const expectedResult = true;
+
+function someBookWasReleaseOnThe80s(sec) {
+    // escreva seu código aqui
+    return sec.releaseYear > 1979 && sec.releaseYear < 1990
 }
-  console.log(books.every(everyoneWasBornOnSecXX));
+
+console.log(books.some(someBookWasReleaseOnThe80s));
