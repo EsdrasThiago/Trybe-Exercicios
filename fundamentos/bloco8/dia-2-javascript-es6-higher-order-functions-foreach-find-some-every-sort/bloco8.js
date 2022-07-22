@@ -63,9 +63,15 @@ const books = [
   
   // Adicione o código do exercício aqui:
 
-  function authorBornIn1947(ano) {
-    // escreva aqui o seu código
-    return ano.author.birthYear === 1947
-  }
+// function authorBornIn1947(ano) {
+//   // escreva aqui o seu código
+//   return ano.author.birthYear === 1947;
+// }
+//   console.log(books.find(authorBornIn1947));
 
-  console.log(books.find(authorBornIn1947));
+//   const expectedResult = false;
+
+function everyoneWasBornOnSecXX(sec) {
+  return sec.author.birthYear > 1901
+}
+  console.log(books.every(everyoneWasBornOnSecXX));
