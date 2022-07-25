@@ -65,8 +65,25 @@ const books = [
 
   //#1
 
-  function formatedBookNames(nomes) {
+//   function formatedBookNames(nomes) {
+//     // escreva seu código aqui
+//     return nomes.map((nome) => `${nome.name}, ${nome.genre}, ${nome.author.name}` )
+//   }
+//   console.log(formatedBookNames(books));
+
+  //#2
+
+  function nameAndAge(idades) {
     // escreva seu código aqui
-    return nomes.map((nome) => `${nome.name}, ${nome.genre}, ${nome.author.name}` )
+    return idades.map((idade) => {
+        const authorAge = {
+        age: `${idade.releaseYear - idade.author.birthYear}`,
+        author: `${idade.author.name}`,
+    }   
+        let array = []
+        array.push(authorAge)
+        return array.sort((a, b) => a.age - b.age);
+       
+    })
   }
-  console.log(formatedBookNames(books));
+  console.log(nameAndAge(books));
