@@ -90,10 +90,20 @@ const books = [
 
   //4 
 
-  function oldBooksOrdered(anos) {
-    // escreva seu código aqui
-    const antigo = anos.filter((velho) => (2022 - velho.releaseYear > 60))
-    return antigo.sort((a,b) => a.releaseYear - b.releaseYear)
-  }
+  // function oldBooksOrdered(anos) {
+  //   // escreva seu código aqui
+  //   const antigo = anos.filter((velho) => (2022 - velho.releaseYear > 60))
+  //   return antigo.sort((a,b) => a.releaseYear - b.releaseYear)
+  // }
 
-  console.log(oldBooksOrdered(books));
+  // console.log(oldBooksOrdered(books));
+
+  //5
+
+  function fantasyOrScienceFictionAuthors(ficFan) {
+    // escreva seu código aqui
+    const sciFan = ficFan.filter((genero) => (genero.genre === 'Fantasia' | genero.genre === 'Ficção Científica'))
+    const sciFanNames = sciFan.map((nome) => `${nome.author.name}`)
+    return sciFanNames.sort()
+  }
+  console.log(fantasyOrScienceFictionAuthors(books));
