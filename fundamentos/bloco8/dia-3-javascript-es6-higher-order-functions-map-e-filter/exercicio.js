@@ -82,8 +82,18 @@ const books = [
 
   //3
 
-  function fantasyOrScienceFiction(genre) {
+  // function fantasyOrScienceFiction(genre) {
+  //   // escreva seu código aqui
+  //   return genre.filter((genero) => (genero.genre === 'Fantasia' | genero.genre === 'Ficção Científica'))
+  // }
+  // console.log(fantasyOrScienceFiction(books));
+
+  //4 
+
+  function oldBooksOrdered(anos) {
     // escreva seu código aqui
-    return genre.filter((genero) => (genero.genre === 'Fantasia' | genero.genre === 'Ficção Científica'))
+    const antigo = anos.filter((velho) => (2022 - velho.releaseYear > 60))
+    return antigo.sort((a,b) => a.releaseYear - b.releaseYear)
   }
-  console.log(fantasyOrScienceFiction(books));
+
+  console.log(oldBooksOrdered(books));
