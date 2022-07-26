@@ -75,15 +75,10 @@ const books = [
 
   function nameAndAge(idades) {
     // escreva seu código aqui
-    return idades.map((idade) => {
-        const authorAge = {
-        age: `${idade.releaseYear - idade.author.birthYear}`,
-        author: `${idade.author.name}`,
-    }   
-        let array = []
-        array.push(authorAge)
-        return array.sort((a, b) => a.age - b.age);
-       
-    })
+    const age = idades.map((idade) => `age: ${idade.releaseYear - idade.author.birthYear}, author: ${idade.author.name}`);
+    return age.sort()
+        // return authorAge.sort((a, b) => { 
+        //   return a.age - b.age 
+        // });
   }
   console.log(nameAndAge(books));
