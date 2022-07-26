@@ -73,12 +73,17 @@ const books = [
 
   //#2
 
-  function nameAndAge(idades) {
+  // function nameAndAge(idades) {
+  //   // escreva seu código aqui
+  //   const age = idades.map((idade) => `age: ${idade.releaseYear - idade.author.birthYear}, author: ${idade.author.name}`);
+  //   return age.sort()
+  // }
+  // console.log(nameAndAge(books));
+
+  //3
+
+  function fantasyOrScienceFiction(genre) {
     // escreva seu código aqui
-    const age = idades.map((idade) => `age: ${idade.releaseYear - idade.author.birthYear}, author: ${idade.author.name}`);
-    return age.sort()
-        // return authorAge.sort((a, b) => { 
-        //   return a.age - b.age 
-        // });
+    return genre.filter((genero) => (genero.genre === 'Fantasia' | genero.genre === 'Ficção Científica'))
   }
-  console.log(nameAndAge(books));
+  console.log(fantasyOrScienceFiction(books));
