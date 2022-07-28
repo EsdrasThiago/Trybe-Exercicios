@@ -100,10 +100,14 @@ const books = [
 
   //5
 
-  function fantasyOrScienceFictionAuthors(ficFan) {
-    // escreva seu código aqui
-    const sciFan = ficFan.filter((genero) => (genero.genre === 'Fantasia' | genero.genre === 'Ficção Científica'))
-    const sciFanNames = sciFan.map((nome) => `${nome.author.name}`)
-    return sciFanNames.sort()
-  }
-  console.log(fantasyOrScienceFictionAuthors(books));
+  // function fantasyOrScienceFictionAuthors(ficFan) {
+  //   // escreva seu código aqui
+  //   const sciFan = ficFan.filter((genero) => (genero.genre === 'Fantasia' | genero.genre === 'Ficção Científica'))
+  //   const sciFanNames = sciFan.map((nome) => `${nome.author.name}`)
+  //   return sciFanNames.sort()
+  // }
+  // console.log(fantasyOrScienceFictionAuthors(books));
+
+  //6
+
+  
